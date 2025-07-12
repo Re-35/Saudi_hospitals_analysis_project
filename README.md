@@ -1,48 +1,39 @@
-# Project: Hospital data analysis
+# Project: Hospital Data Analysis
 
-Analysis dataset about respiratory diseases conditions in Saudi hospitals in 2020-2024.
+Exploratory data analysis of respiratory disease cases in Saudi hospitals (2020–2024).
 
 ## 🔍 Overview
 
-After finished Data Analysis part in "Data Analysis and AI" path at satr.com, I passionated to applying what I learned,
-I choosed 'Health care' majore, and find dataset related to our health ministry in Kaggel, after saw if the dataset is what I want
-I asking myself two questions: 
-- What unusual patterns I want to see?
-- How apply what I learned at this project?
+After completing the Data Analysis module in the “Data Analysis and AI” path on satr.com, I was eager to apply what I had learned in real dataset. I chose the **healthcare** sector and found a related dataset from the Saudi Ministry of Health on **Kaggle**. I asked myself two key questions:
+
+- What unusual patterns can be discovered in the data?
+- How can I apply my new skills effectively?
 
 ## 📊 Features
 
-- Data exploring.
-- Data cleaning and preprocessing.
-- Visual analysis with Seaborn, costomize the figures by Matplotlib.
-- Insights gotten from graphs.
+- Data exploration and cleaning  
+- Preprocessing of missing and categorical values  
+- Visual analysis using **Seaborn** and custom **Matplotlib** settings  
+- Extraction of insights from data visualizations  
 
-## 🧠 Conclusion
+## 🧠 Key Insights
 
-Throughout this exploratory analysis, I got several insights that are:
+- Patients with higher severity levels tend to have longer hospital stays  
+- Seasonal patterns affect admission rates — spring and summer showed unexpected spikes  
+- **Asthma** is the most common respiratory condition in the dataset  
+- **Males** are more frequently affected than females  
+- The age group **18–45** is the most impacted across conditions  
 
-- Patients with higher severity levels tend to have longer average stays.
-- Seasonal patterns may influence hospitalization frequency, especially during the summer and spring, which was too different to what thought
-  at the first time.
-- 'Asthma' disease is more infected to patients than other respiratory diseases.
-- Male are more susceptible to infection than Female, and ( 18 - 45 ) age group are more susceptible to infection than others also.
+These findings can help in **hospital resource planning** and **patient risk stratification**. Future steps may include developing predictive models based on severity, age, and admission history.
 
-These insights can support hospital resource planning and patient risk stratification.  
-Future steps may include building a predictive model for stay duration based on early indicators like age, severity, and visit count.
+## 💻 How to Run the Project
 
-This project marks a solid foundation in healthcare data analysis and opens room for deeper exploration, now it has more and clear
-chances to analysis the data in more specific way or focused on specific columns.
-
-## 💻 How to Test
-
-1. Save the notebook in your computer.
-2. Open the notebook in Jupyte.
-3. Run all cells.
-
-If don't want to run the notebook you can just see the codes in PDF notebook I uplouded.
+1. Clone the repository  
+2. Open the `.ipynb` notebook using **Jupyter Notebook**  
+3. Run all cells to view the full analysis  
+4. Alternatively, refer to the attached PDF for a read-only version
 
 ## 📎 Resources
 
-- [Seaborn Documentation](https://seaborn.pydata.org/)
-- [Dataset in Kaggel](https://www.kaggle.com/datasets/datasetengineer/riyadh-hospital-admissions-dataset-20202024)
-
+- [Seaborn Documentation](https://seaborn.pydata.org/)  
+- [Kaggle Dataset Source](https://kaggle.com/)
